@@ -1,85 +1,85 @@
 <center>
-<img src="assets/brand/banner.svg" width="820" alt="Google DeepMind AI Research Foundations — carnet de recherche">
+<img src="assets/brand/banner.svg" width="820" alt="Google DeepMind AI Research Foundations — research field notes">
 </center>
 
 <center>
-<img src="assets/brand/hero-study.png" width="700" alt="Silhouette d'un étudiant devant ses écrans dans une salle éclairée de violet">
+<img src="assets/brand/hero-study.png" width="700" alt="A student silhouette working at several screens in a purple-lit room">
 <br>
-<img src="assets/brand/badges.svg" width="700" alt="Carnet de labs, Python, Jupyter, petits modèles de langage et DeepMind">
+<img src="assets/brand/badges.svg" width="700" alt="Field notes, Python, Jupyter, small language models, and DeepMind">
 </center>
 
-**Google DeepMind: AI Research Foundations — Solutions** est mon grimoire de cours : notebooks, expérimentations et notes autour des petits modèles de langage. Le dépôt documente le travail réalisé dans le cours **Train a Small Language Model** du [parcours officiel Google Skills](https://www.skills.google/paths/3135) — des modèles n-grammes jusqu'à l'entraînement et l'évaluation d'un SLM.
+**Google DeepMind: AI Research Foundations — Solutions** is my learning grimoire: notebooks, experiments, and notes on small language models. It documents my work in **Train a Small Language Model**, part of the [official Google Skills learning path](https://www.skills.google/paths/3135), from n-gram models to training and evaluating an SLM.
 
 <center>
-<img src="assets/brand/divider.svg" width="480" alt="Séparateur violet du grimoire">
+<img src="assets/brand/divider.svg" width="480" alt="Purple grimoire divider">
 </center>
 
-## 領域展開 · La genèse
+## 領域展開 · Origins
 
-Ce dépôt accompagne le parcours **Google DeepMind: AI Research Foundations**. Son contenu actuel se concentre sur le cours [Train a Small Language Model](https://www.skills.google/paths/3135/course_templates/1453) : chaque notebook suit les étapes d'un laboratoire pratique, avec activités de code, solutions et essais de génération. Il s'agit de notes et de travaux personnels d'apprentissage, pas d'un dépôt officiel de Google ou de DeepMind.
+This repository follows the **Google DeepMind: AI Research Foundations** learning path. Its current focus is the [Train a Small Language Model](https://www.skills.google/paths/3135/course_templates/1453) course: each notebook works through a hands-on lab with coding activities, solutions, and text-generation experiments. These are personal study notes and solutions, not an official Google or DeepMind repository.
 
-## 術式 · Le grimoire des labs
+## 術式 · The lab grimoire
 
-Parcours les fichiers dans l'ordre pour passer des statistiques de séquences aux premières expériences de modélisation. Les notebooks peuvent s'ouvrir dans GitHub ou directement dans Google Colab.
+Follow the files in order, from sequence statistics to your first language-model experiments. Open each notebook on GitHub or launch it directly in Google Colab.
 
-| Ordre | Grimoire | Ce qu'on y explore |
+| Order | Grimoire | What you'll explore |
 |---|---|---|
-| 01 | [Expérimenter avec les modèles n-grammes](course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) | Tokeniser un corpus, construire des n-grammes, compter leurs occurrences, estimer des probabilités et générer du texte. |
-| 02 | [Préparer les données d'un SLM](course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) | Construire le vocabulaire, créer les correspondances token/indice, puis encoder et décoder les séquences. |
-| 03 | [Entraîner son propre petit modèle de langage](course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) | Préparer et remplir les séquences, constituer les lots, entraîner un SLM puis examiner ses prédictions et générations. |
+| 01 | [Experiment with N-Gram Models](course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) | Tokenize a corpus, build n-grams, count occurrences, estimate probabilities, and generate text. |
+| 02 | [Prepare the Dataset for an SLM](course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) | Build a vocabulary and token/index mappings, then encode and decode sequences. |
+| 03 | [Train Your Own Small Language Model](course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) | Prepare and pad sequences, create batches, train an SLM, and inspect its predictions and generated text. |
 
 <details>
-<summary>Ouvrir le laboratoire complémentaire et les notes de terrain</summary>
+<summary>Open the companion lab and field notes</summary>
 
-| Fichier | Rôle |
+| File | Purpose |
 |---|---|
-| [`notebook.ipynb`](Train%20A%20Small%20Language%20Model%20lab/notebook.ipynb) | Laboratoire complémentaire : fonctions utilitaires, tokenizer caractère et génération à partir d'un modèle n-gramme. |
-| [`main.py`](Train%20A%20Small%20Language%20Model%20lab/main.py) | Point d'entrée Python du projet local. |
-| [`simple_word_tokenization.py`](course_1/simple_word_tokenization.py) | Implémentation pédagogique d'un tokenizer par mots, avec encodage et décodage. |
-| [Notes sur les schémas](assets/NOTES.md) | Contexte des illustrations de raisonnement réalisées avec Excalidraw. |
-| [Schéma n-grammes](assets/probleme_ngrammes.png) · [version finale](assets/probleme_ngrammes_final_version.png) | Deux cartes de réflexion autour du problème des n-grammes. |
+| [`notebook.ipynb`](Train%20A%20Small%20Language%20Model%20lab/notebook.ipynb) | Companion lab covering helper functions, character tokenization, and n-gram text generation. |
+| [`main.py`](Train%20A%20Small%20Language%20Model%20lab/main.py) | Python entry point for the local project. |
+| [`simple_word_tokenization.py`](course_1/simple_word_tokenization.py) | Educational word tokenizer with encoding and decoding methods. |
+| [Diagram notes](assets/NOTES.md) | Context for the reasoning diagrams created with Excalidraw. |
+| [N-gram diagram](assets/probleme_ngrammes.png) · [final version](assets/probleme_ngrammes_final_version.png) | Two visual notes exploring the n-gram problem. |
 
 </details>
 
 <center>
-<img src="assets/brand/divider.svg" width="480" alt="Séparateur violet du grimoire">
+<img src="assets/brand/divider.svg" width="480" alt="Purple grimoire divider">
 </center>
 
-## 符 · Le fil de recherche
+## 符 · Research flow
 
-Les laboratoires font évoluer une représentation simple du texte vers une première boucle d'entraînement et d'évaluation.
+The labs move from a simple text representation to a first training and evaluation loop.
 
 ```mermaid
 %%{init: {"theme":"dark", "themeVariables": {"primaryColor":"#15085F", "primaryTextColor":"#C4A9F2", "primaryBorderColor":"#5336A6", "lineColor":"#9965F4"}}}%%
 flowchart LR
-    corpus["Corpus"] --> tokens["Tokenisation"]
-    tokens --> ngrams["N-grammes"]
-    ngrams --> probs["Comptages et probabilités"]
-    probs --> generation["Génération de texte"]
-    tokens --> encoded["Vocabulaire et token IDs"]
-    encoded --> batches["Séquences, padding et lots"]
-    batches --> model["Petit modèle de langage"]
-    model --> evaluate["Prédictions et évaluation"]
+    corpus["Corpus"] --> tokens["Tokenization"]
+    tokens --> ngrams["N-grams"]
+    ngrams --> probs["Counts and probabilities"]
+    probs --> generation["Text generation"]
+    tokens --> encoded["Vocabulary and token IDs"]
+    encoded --> batches["Sequences, padding, and batches"]
+    batches --> model["Small language model"]
+    model --> evaluate["Predictions and evaluation"]
 ```
 
-## 電 · La forge
+## 電 · The toolkit
 
-Les notebooks du cours s'exécutent dans Google Colab. Le projet local du laboratoire complémentaire déclare ses dépendances dans `pyproject.toml` et les verrouille dans `uv.lock`.
+The course notebooks run in Google Colab. The companion local lab declares its dependencies in `pyproject.toml` and pins them in `uv.lock`.
 
-| Couche | Outil / version déclarée |
+| Layer | Tool / declared version |
 |---|---|
-| Langage | Python `>=3.12` |
+| Language | Python `>=3.12` |
 | Notebooks | Jupyter / IPython kernel |
 | Kernel | `ipykernel 7.3.0` |
-| Calcul numérique | `NumPy 2.5.3` · `pandas 3.0.6` |
-| Modèles | `Keras 3.15.1` · `TensorFlow 2.21.0` |
-| Environnement | `uv` avec `pyproject.toml` et `uv.lock` |
+| Numerical computing | `NumPy 2.5.3` · `pandas 3.0.6` |
+| Models | `Keras 3.15.1` · `TensorFlow 2.21.0` |
+| Environment | `uv` with `pyproject.toml` and `uv.lock` |
 
-## 起動 · Démarrage rapide
+## 起動 · Quick start
 
-Pour commencer sans installation, ouvre l'un des notebooks dans Colab avec le lien associé dans le tableau du grimoire.
+To get started without installing anything, open one of the notebooks in Colab using its link in the grimoire table.
 
-Pour lancer le laboratoire local, installe [uv](https://docs.astral.sh/uv/), puis :
+To run the companion lab locally, install [uv](https://docs.astral.sh/uv/), then:
 
 ```bash
 git clone https://github.com/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions.git
@@ -89,14 +89,14 @@ uv sync
 uv run --with jupyter jupyter lab notebook.ipynb
 ```
 
-## 品質 · Notes de lecture
+## 品質 · Reading notes
 
-Le dépôt est un carnet pédagogique : les exercices et leurs solutions sont conservés dans les notebooks, avec un script Python séparé pour la tokenisation. Il ne déclare pas de suite de tests automatisés ; les résultats et exemples produits pendant les laboratoires se consultent dans les notebooks.
+This is a learning repository: exercises and solutions live in the notebooks, alongside a standalone Python tokenizer. No automated test suite is configured; experiment results and examples are available in the notebooks.
 
 <center>
-<img src="assets/brand/divider.svg" width="480" alt="Séparateur violet du grimoire">
+<img src="assets/brand/divider.svg" width="480" alt="Purple grimoire divider">
 <br><br>
 <b>領域展開 · DOMAIN EXPANSION — SMALL LANGUAGE MODELS</b>
 <br><br>
-Carnet de recherche et d'apprentissage tenu par <b><a href="https://github.com/khadimmbaye0">@khadimmbaye0</a></b>
+Research notes and learning experiments by <b><a href="https://github.com/khadimmbaye0">@khadimmbaye0</a></b>
 </center>
