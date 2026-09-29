@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Google DeepMind AI Research Foundations — carnet de recherche">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030126"/>
+      <stop offset="0.58" stop-color="#15085F"/>
+      <stop offset="1" stop-color="#4E226C"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C4A9F2"/>
+      <stop offset="0.55" stop-color="#7589F0"/>
+      <stop offset="1" stop-color="#9965F4"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#624BF3" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#624BF3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="1184" height="364" rx="28" fill="url(#panel)" stroke="#5336A6" stroke-width="2"/>
+  <ellipse cx="930" cy="56" rx="310" ry="230" fill="url(#glow)"/>
+  <text x="1010" y="302" text-anchor="middle" font-family="Noto Sans JP, Noto Sans, sans-serif" font-size="248" fill="#C4A9F2" opacity="0.09">研</text>
+  <text x="600" y="82" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="19" letter-spacing="5" fill="#C4A9F2">FIELD NOTES  /  GOOGLE DEEPMIND</text>
+  <text x="600" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="1" fill="url(#title)">AI RESEARCH</text>
+  <text x="600" y="232" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="750" letter-spacing="3" fill="#C4A9F2">FOUNDATIONS</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#C4A9F2" opacity="0.9">N-GRAMMES  ·  TOKENISATION  ·  PETITS MODÈLES DE LANGAGE</text>
+  <rect x="451" y="311" width="298" height="38" rx="19" fill="#030126" stroke="#9965F4" stroke-width="1.5"/>
+  <text x="600" y="336" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#C4A9F2">LE GRIMOIRE DES LABS</text>
+</svg>

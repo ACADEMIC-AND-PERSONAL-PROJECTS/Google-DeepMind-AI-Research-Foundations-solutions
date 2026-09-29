@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="92" viewBox="0 0 1000 92" role="img" aria-label="Carnet de labs, Python, Jupyter, modèles de langage et Google DeepMind">
+  <g font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" text-anchor="middle">
+    <rect x="8" y="22" width="194" height="48" rx="18" fill="#624BF3" stroke="#9965F4"/>
+    <text x="105" y="52" fill="#030126">FIELD NOTES</text>
+    <rect x="214" y="22" width="142" height="48" rx="18" fill="#15085F" stroke="#5336A6"/>
+    <text x="285" y="52" fill="#C4A9F2">PYTHON</text>
+    <rect x="368" y="22" width="156" height="48" rx="18" fill="#15085F" stroke="#5336A6"/>
+    <text x="446" y="52" fill="#C4A9F2">JUPYTER</text>
+    <rect x="536" y="22" width="238" height="48" rx="18" fill="#15085F" stroke="#5336A6"/>
+    <text x="655" y="52" fill="#C4A9F2">SMALL LANGUAGE MODELS</text>
+    <rect x="786" y="22" width="206" height="48" rx="18" fill="#15085F" stroke="#5336A6"/>
+    <text x="889" y="52" fill="#C4A9F2">DEEP MIND</text>
+  </g>
+</svg>
