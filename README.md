@@ -1,18 +1,18 @@
-<center>
+<div align="center">
 <img src="assets/brand/banner.svg" width="820" alt="Google DeepMind AI Research Foundations — research field notes">
-</center>
+</div>
 
-<center>
+<div align="center">
 <img src="assets/brand/hero-study.png" width="700" alt="A student silhouette working at several screens in a purple-lit room">
 <br>
 <img src="assets/brand/badges.svg" width="700" alt="Field notes, Python, Jupyter, small language models, and DeepMind">
-</center>
+</div>
 
 **Google DeepMind: AI Research Foundations — Solutions** is my learning grimoire: notebooks, experiments, and notes on small language models. It documents my work in **Train a Small Language Model**, part of the [official Google Skills learning path](https://www.skills.google/paths/3135), from n-gram models to training and evaluating an SLM.
 
-<center>
+<div align="center">
 <img src="assets/brand/divider.svg" width="480" alt="Purple research-notes divider">
-</center>
+</div>
 
 ## Origins
 
@@ -44,17 +44,17 @@ Continue with the [Build a SLM Lab notebook](Train%20A%20Small%20Language%20Mode
 
 </details>
 
-<center>
+<div align="center">
 <img src="assets/brand/divider.svg" width="480" alt="Purple research-notes divider">
-</center>
+</div>
 
 ## Research flow
 
 The labs move from a simple text representation to a first training and evaluation loop.
 
-<center>
+<div align="center">
 <img src="assets/brand/research-flow.svg" width="820" alt="Centered diagram showing a text corpus branching into n-gram text generation and small language model training, ending with evaluation">
-</center>
+</div>
 
 <details>
 <summary>View the Mermaid source</summary>
@@ -105,10 +105,8 @@ uv run --with jupyter jupyter lab notebook.ipynb
 
 This is a learning repository: exercises and solutions live in the notebooks, alongside a standalone Python tokenizer. No automated test suite is configured; experiment results and examples are available in the notebooks.
 
-<center>
+<div align="center">
 <img src="assets/brand/divider.svg" width="480" alt="Purple research-notes divider">
-<br><br>
-<b>DOMAIN EXPANSION — SMALL LANGUAGE MODELS</b>
-<br><br>
+</div>
+
 Research notes and learning experiments by <b><a href="https://github.com/khadimmbaye0">@khadimmbaye0</a></b>
-</center>
