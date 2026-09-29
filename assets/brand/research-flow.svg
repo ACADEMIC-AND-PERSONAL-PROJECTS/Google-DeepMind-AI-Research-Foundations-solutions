@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Research flow from a text corpus through n-gram experiments and small language model training to evaluation">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030126"/>
+      <stop offset="1" stop-color="#15085F"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#9965F4"/>
+    </marker>
+  </defs>
+  <rect x="3" y="3" width="1194" height="424" rx="24" fill="url(#panel)" stroke="#5336A6" stroke-width="2"/>
+  <text x="600" y="48" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="3" fill="#C4A9F2">FROM TEXT TO A TRAINED SLM</text>
+  <g fill="none" stroke="#9965F4" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M180 150H218"/>
+    <path d="M386 150H414V102H448"/>
+    <path d="M386 150H414V300H448"/>
+    <path d="M618 102H658"/>
+    <path d="M838 102H878"/>
+    <path d="M628 300H668"/>
+    <path d="M858 300H888"/>
+    <path d="M1058 300H1080"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="18" font-weight="650" text-anchor="middle">
+    <rect x="30" y="115" width="150" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="105" y="157" fill="#C4A9F2">Text corpus</text>
+    <rect x="218" y="115" width="168" height="70" rx="16" fill="#15085F" stroke="#624BF3" stroke-width="2"/>
+    <text x="302" y="157" fill="#C4A9F2">Tokenization</text>
+    <rect x="448" y="67" width="170" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="533" y="109" fill="#C4A9F2">N-gram counts</text>
+    <rect x="658" y="67" width="180" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="748" y="109" fill="#C4A9F2">Probabilities</text>
+    <rect x="878" y="67" width="180" height="70" rx="16" fill="#15085F" stroke="#624BF3" stroke-width="2"/>
+    <text x="968" y="109" fill="#C4A9F2">Text generation</text>
+    <rect x="448" y="265" width="180" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="538" y="307" fill="#C4A9F2">Vocabulary + IDs</text>
+    <rect x="668" y="265" width="190" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="763" y="307" fill="#C4A9F2">Sequences + batches</text>
+    <rect x="888" y="265" width="170" height="70" rx="16" fill="#15085F" stroke="#624BF3" stroke-width="2"/>
+    <text x="973" y="307" fill="#C4A9F2">Train SLM</text>
+    <rect x="1080" y="265" width="100" height="70" rx="16" fill="#15085F" stroke="#5336A6" stroke-width="2"/>
+    <text x="1130" y="307" fill="#C4A9F2" font-size="16">Evaluate</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="64" viewBox="0 0 600 64" role="img" aria-label="Séparateur violet du grimoire">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="64" viewBox="0 0 600 64" role="img" aria-label="Purple research-notes divider">
   <line x1="22" y1="32" x2="238" y2="32" stroke="#5336A6" stroke-width="2"/>
   <line x1="362" y1="32" x2="578" y2="32" stroke="#5336A6" stroke-width="2"/>
   <rect x="258" y="8" width="84" height="48" rx="16" fill="#15085F" stroke="#624BF3" stroke-width="2"/>
-  <text x="300" y="42" text-anchor="middle" font-family="Noto Sans JP, Noto Sans, sans-serif" font-size="27" fill="#C4A9F2">研</text>
+  <text x="300" y="42" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="19" font-weight="700" letter-spacing="1" fill="#C4A9F2">AI</text>
 </svg>
