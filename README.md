@@ -5,10 +5,10 @@
 <center>
 <img src="assets/brand/hero-study-frame.png" width="100%" alt="A centered photograph with rounded corners, showing a student silhouette working at several screens in a purple-lit room">
 <br>
-<img src="assets/brand/badges.svg" width="100%" alt="Field notes, Python, Jupyter, small language models, and DeepMind">
+<img src="assets/brand/badges.svg" width="100%" alt="Full learning path, course notes, lab solutions, research, and Google DeepMind">
 </center>
 
-**Google DeepMind: AI Research Foundations — Solutions** is my learning grimoire: notebooks, experiments, and notes on small language models. It documents my work in **Train a Small Language Model**, part of the [official Google Skills learning path](https://www.skills.google/paths/3135), from n-gram models to training and evaluating an SLM.
+**Google DeepMind: AI Research Foundations — Solutions** is my archive for coursework, lab solutions, research notes, and experiments from the [full Google Skills learning path](https://www.skills.google/paths/3135). It is organized course by course; the first materials here come from **Train a Small Language Model**.
 
 <center>
 <img src="assets/brand/divider.svg" width="100%" alt="Purple research-notes divider">
@@ -16,17 +16,19 @@
 
 ## Origins
 
-This repository follows the **Google DeepMind: AI Research Foundations** learning path. Its current focus is the [Train a Small Language Model](https://www.skills.google/paths/3135/course_templates/1453) course: each notebook works through a hands-on lab with coding activities, solutions, and text-generation experiments. These are personal study notes and solutions, not an official Google or DeepMind repository.
+This repository is intended to collect my work across the **Google DeepMind: AI Research Foundations** learning path, not just a single course. I am adding the material course by course; the current notebooks document the [Train a Small Language Model](https://www.skills.google/paths/3135/course_templates/1453) course, including hands-on coding activities, solutions, and text-generation experiments. These are personal study notes and solutions, not an official Google or DeepMind repository.
 
-## The lab grimoire
+## Current collection
 
-Follow the files in order, from sequence statistics to your first language-model experiments. Open each notebook on GitHub or launch it directly in Google Colab.
+### Course 1 · Train a Small Language Model
 
-| Order | Grimoire | What you'll explore |
+These are the Course 1 materials currently in the repository. Open each notebook on GitHub or launch it directly in Google Colab.
+
+| Lab | Notebook | What you'll explore |
 |---|---|---|
-| 01 | [Experiment with N-Gram Models](course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) | Tokenize a corpus, build n-grams, count occurrences, estimate probabilities, and generate text. |
-| 02 | [Prepare the Dataset for an SLM](course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) | Build a vocabulary and token/index mappings, then encode and decode sequences. |
-| 03 | [Train Your Own Small Language Model](course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) | Prepare and pad sequences, create batches, train an SLM, and inspect its predictions and generated text. |
+| 1.2 | [Experiment with N-Gram Models](course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_2_experiment_with_n_gram_models.ipynb) | Tokenize a corpus, build n-grams, count occurrences, estimate probabilities, and generate text. |
+| 1.4 | [Prepare the Dataset for an SLM](course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_4_prepare_the_dataset_for_training_a_slm.ipynb) | Build a vocabulary and token/index mappings, then encode and decode sequences. |
+| 1.5 | [Train Your Own Small Language Model](course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) · [Colab](https://colab.research.google.com/github/ACADEMIC-AND-PERSONAL-PROJECTS/Google-DeepMind-AI-Research-Foundations-solutions/blob/main/course_1/gdm_lab_1_5_train_your_own_small_language_model.ipynb) | Prepare and pad sequences, create batches, train an SLM, and inspect its predictions and generated text. |
 
 ### After Course 1 · Build a SLM Lab
 
